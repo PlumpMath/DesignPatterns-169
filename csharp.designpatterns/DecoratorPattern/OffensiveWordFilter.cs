@@ -21,7 +21,7 @@ namespace DesignPatterns.Decorator
 			base.Write (ReplaceOffensiveWords(message));
 		}
 
-		public string ReplaceOffensiveWords(string message)
+		private string ReplaceOffensiveWords(string message)
 		{
 			return string.Join(" ", message.Split(' ')
 				.Select(w => offensiveWords.Contains(w) ? w[0] + new String('*', w.Length - 1) : w));
