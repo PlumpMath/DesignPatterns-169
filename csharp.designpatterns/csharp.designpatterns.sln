@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator", "DecoratorPattern\DesignPatterns.Decorator.csproj", "{AE4A6AEF-376A-4658-897A-D7C55823EED9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator", "DesignPatterns.DecoratorPattern\DesignPatterns.Decorator.csproj", "{AE4A6AEF-376A-4658-897A-D7C55823EED9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Singletons", "DesignPatterns.Singletons\DesignPatterns.Singletons.csproj", "{57255BA0-C3AE-41A6-82A2-0630E7D2E42E}"
 EndProject
